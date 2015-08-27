@@ -79,4 +79,8 @@ public class GeometryLab {
    public int rectPrismSurfArea(int b,int h, int w) {
        return 2 * b * h + 2 * b * w + 2 * h * w;
    }
+   
+   public double rectPyramidVol(int b, int h, int w) {
+       return 1/3 * b * h * w;
+   }
 }
